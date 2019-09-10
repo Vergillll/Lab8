@@ -1,0 +1,12 @@
+A = int(input())
+B = int(input())
+if A==B:
+    A = 0
+    B = 0
+elif A<B:
+    A = B
+    B = B #Цитата задания:"Присвоить КАЖДОЙ переменной большее значение"
+elif A>B:
+    A = A
+    B = A
+print(A, B)
