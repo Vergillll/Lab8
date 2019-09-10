@@ -1,0 +1,18 @@
+x = int(input())
+xs = str(x)
+s = "x"
+if x==0:
+    s = "x zero number"
+else:
+    if len(xs)==1:
+        s = s+" single-digit"
+    elif len(xs)==2:
+        s = s+" double-digit"
+    elif len(xs)==3:
+        s = s+" three-digit"
+    if x%2==0:
+        s = s+" even"
+    else:
+        s = s+" odd"
+s = s+" number"
+print(s)
