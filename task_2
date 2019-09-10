@@ -1,0 +1,14 @@
+a = []
+c1 = 0
+c2 = 0
+for i in range(0, 3):
+    a.append(float(input()))
+for i in range(0, 3):
+    if a[i] > c1:
+        c1 = a[i]
+for i in range(0,3):
+    if a[i] > c2 and a[i] != c1:
+        c2 = a[i]
+sum = c1+c2
+
+print(sum)
