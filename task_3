@@ -1,0 +1,12 @@
+A = float(input())
+B = float(input())
+C = float(input())
+Leight1 = abs(A - B)
+Leight2 = abs(A - C)
+print(Leight1, Leight2)
+if Leight1 < Leight2:
+    print("Point B, "+str(Leight1))
+elif Leight1 > Leight2:
+    print("Point C, "+str(Leight2))
+else:
+    print("Leight_C = Leight_B, == "+str(Leight1))
